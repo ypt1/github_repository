@@ -1,0 +1,52 @@
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,235 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][DecodeHandler.java:59] -  [DUBBO] Decode decodeable message org.apache.dubbo.rpc.protocol.dubbo.DecodeableRpcInvocation, dubbo version: 2.7.3, current host: 192.168.10.2
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,261 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][Log4j2Filter.java:132] - {conn-10005} pool-connect
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,265 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][Log4j2Filter.java:132] - {conn-10005} setAutoCommit false
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,417 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][BaseJdbcLogger.java:159] - ==>  Preparing: UPDATE merchant SET MERCHANT_NAME=?, MERCHANT_NO=?, MERCHANT_ADDRESS=?, MERCHANT_TYPE=?, BUSINESS_LICENSES_IMG=?, ID_CARD_FRONT_IMG=?, ID_CARD_AFTER_IMG=?, USERNAME=?, MOBILE=?, CONTACTS_ADDRESS=?, AUDIT_STATUS=?, TENANT_ID=? WHERE ID=? 
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,529 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} created. UPDATE merchant  SET MERCHANT_NAME=?,
+MERCHANT_NO=?,
+MERCHANT_ADDRESS=?,
+MERCHANT_TYPE=?,
+BUSINESS_LICENSES_IMG=?,
+ID_CARD_FRONT_IMG=?,
+ID_CARD_AFTER_IMG=?,
+USERNAME=?,
+MOBILE=?,
+CONTACTS_ADDRESS=?,
+AUDIT_STATUS=?,
+TENANT_ID=?  WHERE ID=?
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,572 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][BaseJdbcLogger.java:159] - ==> Parameters: string(String), string(String), string(String), string(String), string(String), string(String), string(String), string(String), 13676950997(String), string(String), 1(String), 0(Long), 1434892497257975809(Long)
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,573 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Parameters : [string, string, string, string, string, string, string, string, 13676950997, string, 1, 0, 1434892497257975809]
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,574 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} Types : [VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, VARCHAR, BIGINT, BIGINT]
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,726 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} executed. 153.8343 millis. UPDATE merchant  SET MERCHANT_NAME=?,
+MERCHANT_NO=?,
+MERCHANT_ADDRESS=?,
+MERCHANT_TYPE=?,
+BUSINESS_LICENSES_IMG=?,
+ID_CARD_FRONT_IMG=?,
+ID_CARD_AFTER_IMG=?,
+USERNAME=?,
+MOBILE=?,
+CONTACTS_ADDRESS=?,
+AUDIT_STATUS=?,
+TENANT_ID=?  WHERE ID=?
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,727 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][BaseJdbcLogger.java:159] - <==    Updates: 1
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,728 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][Log4j2Filter.java:137] - {conn-10005, pstmt-20001} clearParameters. 
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,729 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][PreparedStatementPool.java:129] - {conn-10005, pstmt-20001} enter cache
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,852 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][Log4j2Filter.java:132] - {conn-10005} commited
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,852 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][Log4j2Filter.java:132] - {conn-10005} setAutoCommit true
+[${project.name}][${env:SERVER_PORT}] 2021-09-07 23:00:17,854 DEBUG
+            [DubboServerHandler-192.168.10.2:20890-thread-5][Log4j2Filter.java:132] - {conn-10005} pool-recycle
